@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* * {
+        margin: 0;
+        padding: 0;
+      } */
+      .container {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        /* padding: 10px; */
+        /* margin: 10px; */
+        gap: 10px;
+        background-color: royalblue;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        /* display: inline-block; */
+        /* box-sizing: border-box; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        color: white;
+        font-size: 20px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        box-shadow: 2px -2px 15px 5px orangered;
+        /* padding: 20px; */
+        /* margin: 40px; */
+        /* margin-top: 40px; */
+      }
+      .box2 {
+        display: inline-block; /*크기는 유지하면서 줄바꿈이 일어나지 않음*/
+        width: 100px;
+        height: 100px;
+        background-color: cadetblue;
+        border-right: 2px solid #000;
+        border-radius: 10px 0px;
+      }
+      .box2:hover {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="box">박스 모델을 구성하는 속성 다루기</p>
+      <p class="box">박스 모델 2</p>
+    </div>
+    <p class="box2">ffff</p>
+    <p class="box2">fff</p>
+    <p class="box2">ff</p>
+  </body>
+</html>
